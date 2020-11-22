@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+}
+
+button{
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+    user-select: none;
+}
+
+.modal{
+    position: absolute;
+    top: -100%;
+    width: 40%;
+    left: 35%;
+    border: 1px solid #000000;
+    z-index: 100;
+    transition: .2s;
+    background-color: #fff;
+}
+
+.modal-show{
+    top: 2%;
+}
+
+.modal div{
+        padding: 10px 20px;
+}
+
+.title-in-modal{
+    text-align: center;
+    border-bottom: 1px solid #e9ecef;
+    position: relative;
+
+}
+
+.title-in-modal > h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.close{
+    color: #727272;
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    top: 10%;
+    left: 95%;
+    cursor: pointer;
+}
+
+.buttons-in-modal{
+    text-align: end;
+    border-top: 1px solid #e9ecef;
+}
+
+.btn-modal-c{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+
+
+}
+
+.btn-modal-c:hover{
+    background-color: #b92b39;
+    border-color: #b92b39;
+}
+
+.btn-modal-p{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-modal-p:hover{
+    background-color: #1e7e35;
+    border-color: #1e7e35;
+}
+
+.overlayer{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: #473b3b57;
+    display: none;
+}
+
+.overlayer-on{
+    display: block;
+}
+
+
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+

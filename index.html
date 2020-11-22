@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="modal">
+        <div class="title-in-modal">
+            <h1>Title</h1>
+            <span class="close" data-toggle-modal>x</span>
+        </div>
+        <div class="text-in-modal">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="buttons-in-modal">
+            <button class="btn-modal-c" data-toggle-modal>Close</button>
+            <button class="btn-modal-p">Proceed</button>
+        </div>
+    </section>
+
+    <section class="overlayer" data-toggle-modal></section>
+
+    <button class="btn" data-toggle-modal>Click</button>
+
+    <script src="scriptModalWindow.js"></script>
+</body>
+</html>
